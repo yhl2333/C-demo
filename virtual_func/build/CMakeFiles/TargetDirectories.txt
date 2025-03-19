@@ -1,0 +1,3 @@
+C:/vsproject/AAA/virtual_func/build/CMakeFiles/virtual.dir
+C:/vsproject/AAA/virtual_func/build/CMakeFiles/edit_cache.dir
+C:/vsproject/AAA/virtual_func/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:/vsproject/AAA/Observer/build/CMakeFiles/ObserSub.dir
+C:/vsproject/AAA/Observer/build/CMakeFiles/edit_cache.dir
+C:/vsproject/AAA/Observer/build/CMakeFiles/rebuild_cache.dir

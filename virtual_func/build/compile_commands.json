@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/vsproject/AAA/virtual_func/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe   -g -o CMakeFiles\\virtual.dir\\main.cpp.obj -c C:\\vsproject\\AAA\\virtual_func\\main.cpp",
+  "file": "C:/vsproject/AAA/virtual_func/main.cpp",
+  "output": "CMakeFiles/virtual.dir/main.cpp.obj"
+}
+]

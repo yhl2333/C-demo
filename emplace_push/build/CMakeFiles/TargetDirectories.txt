@@ -1,0 +1,3 @@
+C:/vsproject/AAA/emplace_push/build/CMakeFiles/push_emplace.dir
+C:/vsproject/AAA/emplace_push/build/CMakeFiles/edit_cache.dir
+C:/vsproject/AAA/emplace_push/build/CMakeFiles/rebuild_cache.dir

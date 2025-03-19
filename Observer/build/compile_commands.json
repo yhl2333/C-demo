@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/vsproject/AAA/Observer/build",
+  "command": "C:\\GCc\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\ObserSub.dir\\main.cpp.obj -c C:\\vsproject\\AAA\\Observer\\main.cpp",
+  "file": "C:/vsproject/AAA/Observer/main.cpp",
+  "output": "CMakeFiles/ObserSub.dir/main.cpp.obj"
+}
+]

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\ObserSub.dir/objects.a
+C:\GCc\mingw64\bin\ar.exe qc CMakeFiles\ObserSub.dir/objects.a @CMakeFiles\ObserSub.dir\objects1.rsp
+C:\GCc\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ObserSub.dir/objects.a -Wl,--no-whole-archive -o ObserSub.exe -Wl,--out-implib,libObserSub.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ObserSub.dir\linkLibs.rsp
