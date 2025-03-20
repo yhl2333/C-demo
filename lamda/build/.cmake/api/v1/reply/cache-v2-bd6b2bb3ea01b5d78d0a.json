@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/vsproject/AAA/virtual_func/build"
+			"value" : "c:/vsproject/AAA/lamda/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/vsproject/AAA/virtual_func/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/vsproject/AAA/lamda/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/vsproject/AAA/virtual_func"
+			"value" : "C:/vsproject/AAA/lamda"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/virtual"
+			"value" : "C:/Program Files (x86)/Lamda"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -891,7 +891,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "virtual"
+			"value" : "Lamda"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1346,19 +1346,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "virtual_BINARY_DIR",
+			"name" : "Lamda_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1367,10 +1355,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/vsproject/AAA/virtual_func/build"
+			"value" : "C:/vsproject/AAA/lamda/build"
 		},
 		{
-			"name" : "virtual_IS_TOP_LEVEL",
+			"name" : "Lamda_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1382,7 +1370,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "virtual_SOURCE_DIR",
+			"name" : "Lamda_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1391,7 +1379,19 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/vsproject/AAA/virtual_func"
+			"value" : "C:/vsproject/AAA/lamda"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",

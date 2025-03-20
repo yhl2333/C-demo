@@ -1,0 +1,3 @@
+C:/vsproject/AAA/lamda/build/CMakeFiles/Lamda.dir
+C:/vsproject/AAA/lamda/build/CMakeFiles/edit_cache.dir
+C:/vsproject/AAA/lamda/build/CMakeFiles/rebuild_cache.dir

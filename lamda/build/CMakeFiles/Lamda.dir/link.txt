@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Lamda.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\Lamda.dir/objects.a @CMakeFiles\Lamda.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Lamda.dir/objects.a -Wl,--no-whole-archive -o Lamda.exe -Wl,--out-implib,libLamda.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Lamda.dir\linkLibs.rsp

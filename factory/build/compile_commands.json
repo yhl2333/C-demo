@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/vsproject/AAA/factory/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe   -g -o CMakeFiles\\factory.dir\\main.cpp.obj -c C:\\vsproject\\AAA\\factory\\main.cpp",
+  "file": "C:/vsproject/AAA/factory/main.cpp",
+  "output": "CMakeFiles/factory.dir/main.cpp.obj"
+}
+]

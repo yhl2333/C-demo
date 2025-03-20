@@ -807,8 +807,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/vsproject/AAA/virtual_func/build",
-		"source" : "C:/vsproject/AAA/virtual_func"
+		"build" : "C:/vsproject/AAA/factory/build",
+		"source" : "C:/vsproject/AAA/factory"
 	},
 	"version" : 
 	{

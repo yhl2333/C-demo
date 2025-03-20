@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\factory.dir/objects.a
+C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\factory.dir/objects.a @CMakeFiles\factory.dir\objects1.rsp
+C:\Qt\Tools\mingw1120_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\factory.dir/objects.a -Wl,--no-whole-archive -o C:\vsproject\AAA\factory\factory.exe -Wl,--out-implib,libfactory.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\factory.dir\linkLibs.rsp

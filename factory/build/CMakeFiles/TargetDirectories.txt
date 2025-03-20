@@ -1,0 +1,3 @@
+C:/vsproject/AAA/factory/build/CMakeFiles/factory.dir
+C:/vsproject/AAA/factory/build/CMakeFiles/edit_cache.dir
+C:/vsproject/AAA/factory/build/CMakeFiles/rebuild_cache.dir
