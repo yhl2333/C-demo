@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/vsproject/AAA/Iostream/build",
-		"source" : "C:/vsproject/AAA/Iostream"
+		"build" : "D:/vsproject/AAA/C-demo/Iostream/build",
+		"source" : "D:/vsproject/AAA/C-demo/Iostream"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }

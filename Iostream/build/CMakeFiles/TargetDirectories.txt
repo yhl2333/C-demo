@@ -1,3 +1,3 @@
-C:/vsproject/AAA/Iostream/build/CMakeFiles/Iostream.dir
-C:/vsproject/AAA/Iostream/build/CMakeFiles/edit_cache.dir
-C:/vsproject/AAA/Iostream/build/CMakeFiles/rebuild_cache.dir
+D:/vsproject/AAA/C-demo/Iostream/build/CMakeFiles/Iostream.dir
+D:/vsproject/AAA/C-demo/Iostream/build/CMakeFiles/edit_cache.dir
+D:/vsproject/AAA/C-demo/Iostream/build/CMakeFiles/rebuild_cache.dir
