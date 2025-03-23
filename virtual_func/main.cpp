@@ -1,4 +1,5 @@
 #include <iostream>
+#include <typeinfo>
 
 class Base {
 public:
@@ -13,7 +14,7 @@ public:
 
 class Derived : public Base {
 public:
-    void func() override { std::cout << "Derived::func()" << std::endl; }
+    void func() override { std::cout << "Derived::func()" <<derived_data2<< std::endl; }
     ~Derived(){
         std::cout<<"Derived::~Derived()"<<std::endl;
     };
@@ -55,7 +56,50 @@ int main() {
     std::cout << "address of Derived: " << derived_ptr << std::endl;
     std::cout << "Base data: " << &base_ptr->base_data << std::endl;
     std::cout << "Derived data: " << &derived_ptr->base_data << std::endl;
-    // std::cout << "Derived data: " << &derived_ptr->derived_data << std::endl;//这里通过Base指针访问Derived的成员变量是不行的,访问成员函数也是不行的，sizeof(*derived_ptr)也是Base的大小，因此需要dynamic_cast和static_cast来进行转换。同理析构函数也需要virtual来实现多态
+    //std::cout << "Derived data: " << &derived_ptr->derived_data << std::endl;//这里通过Base指针访问Derived的成员变量是不行的,访问成员函数也是不行的，sizeof(*derived_ptr)也是Base的大小，因此需要dynamic_cast和static_cast来进行转换。同理析构函数也需要virtual来实现多态
+    //derived_ptr->func();//但是在虚函数中，可以访问到该成员变量
+
+
+    //RTTI
+    //dynamic_cast和static_cast的区别
+    Derived* derived_ptr2 = dynamic_cast<Derived*>(derived_ptr);
+    if (derived_ptr2) {
+        std::cout << "dynamic_cast Derived data: " << derived_ptr2->derived_data << std::endl;
+    } else {
+        std::cout << "dynamic_cast failed" << std::endl;
+    }
+
+    Derived* derived_ptr3 = dynamic_cast<Derived*>(base_ptr);
+    if (derived_ptr3) {
+        std::cout << "dynamic_cast Derived data: " << derived_ptr3->derived_data << std::endl;
+    } else {
+        std::cout << "dynamic_cast failed" << std::endl;
+    }
+
+    //typeinfo
+
+    if(typeid(*base_ptr)==typeid(Base)){
+        std::cout<<"base_ptr is Base"<<std::endl;
+    }
+    if(typeid(*derived_ptr)==typeid(Derived)){
+        std::cout<<"derived_ptr is Derived"<<std::endl;
+    }
+    std::cout << "typeid of base_ptr: " << typeid(*base_ptr).name() << std::endl;
+    std::cout << "typeid of derived_ptr: " << typeid(*derived_ptr).name() << std::endl;
+
+    Derived* derived_ptr4 = static_cast<Derived*>(derived_ptr);
+    if (derived_ptr4) {
+        std::cout << "static_cast Derived data: " << derived_ptr4->derived_data << std::endl;
+    } else {
+        std::cout << "static_cast failed" << std::endl;
+    }
+
+    Derived* derived_ptr5 = static_cast<Derived*>(base_ptr);
+    if (derived_ptr5) {
+        std::cout << "static_cast Derived data: " << derived_ptr5->derived_data << std::endl; //这里输出是0，是不对的，但是static_cast不会检查类型，所以不会报错，dynamic_cast会检查类型，并把指针置空
+    } else {
+        std::cout << "static_cast failed" << std::endl;
+    }
 
     delete base_ptr;
     delete derived_ptr;

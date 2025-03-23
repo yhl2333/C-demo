@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/vsproject/AAA/custom_conversion/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe   -g -o CMakeFiles\\customConverse.dir\\main.cpp.obj -c C:\\vsproject\\AAA\\custom_conversion\\main.cpp",
+  "file": "C:/vsproject/AAA/custom_conversion/main.cpp",
+  "output": "CMakeFiles/customConverse.dir/main.cpp.obj"
+}
+]

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/vsproject/AAA/Iostream/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe   -g -o CMakeFiles\\Iostream.dir\\main.cpp.obj -c C:\\vsproject\\AAA\\Iostream\\main.cpp",
+  "file": "C:/vsproject/AAA/Iostream/main.cpp",
+  "output": "CMakeFiles/Iostream.dir/main.cpp.obj"
+}
+]

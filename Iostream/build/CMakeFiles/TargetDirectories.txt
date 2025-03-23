@@ -1,0 +1,3 @@
+C:/vsproject/AAA/Iostream/build/CMakeFiles/Iostream.dir
+C:/vsproject/AAA/Iostream/build/CMakeFiles/edit_cache.dir
+C:/vsproject/AAA/Iostream/build/CMakeFiles/rebuild_cache.dir

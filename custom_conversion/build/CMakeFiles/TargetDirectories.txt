@@ -1,0 +1,3 @@
+C:/vsproject/AAA/custom_conversion/build/CMakeFiles/customConverse.dir
+C:/vsproject/AAA/custom_conversion/build/CMakeFiles/edit_cache.dir
+C:/vsproject/AAA/custom_conversion/build/CMakeFiles/rebuild_cache.dir

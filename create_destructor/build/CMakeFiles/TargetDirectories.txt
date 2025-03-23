@@ -1,0 +1,3 @@
+C:/vsproject/AAA/create_destructor/build/CMakeFiles/create_destructor.dir
+C:/vsproject/AAA/create_destructor/build/CMakeFiles/edit_cache.dir
+C:/vsproject/AAA/create_destructor/build/CMakeFiles/rebuild_cache.dir

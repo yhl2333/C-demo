@@ -1,0 +1,3 @@
+C:/vsproject/AAA/friend/build/CMakeFiles/friend.dir
+C:/vsproject/AAA/friend/build/CMakeFiles/edit_cache.dir
+C:/vsproject/AAA/friend/build/CMakeFiles/rebuild_cache.dir
